@@ -1,5 +1,4 @@
 <h1 align="center">Valorant External Assistant 2026</h1>
-
 <p align="center">
   <a href="https://github.com/Jawaz-Keyzor/Valorant-External-Assistant-2026"><img src="https://img.shields.io/github/v/release/Jawaz-Keyzor/Valorant-External-Assistant-2026?style=flat-square&label=Version&color=blueviolet"></a>
   <a href="https://github.com/Jawaz-Keyzor/Valorant-External-Assistant-2026"><img src="https://img.shields.io/github/downloads/Jawaz-Keyzor/Valorant-External-Assistant-2026/total?style=flat-square&label=Downloads&color=success"></a>
